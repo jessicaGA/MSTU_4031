@@ -10,7 +10,7 @@
 	*	Office Hours: Mondays from 4:30 to 6:00 pm 2nd Floor Library or By Appointment
 
 
-*	__Kenneth Grave__ - Email: kg2123@tc.columbia.edu|
+*	__Kenneth Grave__ - Email: kg2123@tc.columbia.edu
 	*	Office Hours Tuesday from 5:00pm – 7:20pm or By Appointment
 
 
