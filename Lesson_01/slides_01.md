@@ -33,7 +33,8 @@
 ##Instructor
 
 __Jessica T-Skeete__ jt2573@tc.columbia.edu
-__Office Hours:__ Mondays 4:00 - 5:30 or by appointment.
+
+__Office Hours:__ Mondays 4:00 - 5:30 or by appointment.
 
 
 ---
@@ -46,14 +47,17 @@ __Office Hours__ Tuesdays 5:00 - 7:20
 
 ---
 
-##You!	
+###You!	
 
 ---
 
-##The Course
+###The Course
 
-*	Class starts at 5:30 pm on __Mondays__*	Recitation runs __Tuesdays__ from 7:30 to 8:30 with Kenny.
-*	[Syllabus](../../README.md)
+*	Class starts at 5:30 pm on __Mondays__
+
+*	Recitation runs __Tuesdays__ from 7:30 to 8:30 with Kenny.
+
+*	[Syllabus](../../README.md)
 
 <aside class="notes">
 
@@ -64,18 +68,27 @@ I will take attendance in both classes. Attending on Tuesdays will not count tow
 ---
 
 
-##The Course Objectives*	Read code and write Java applications.
-*	Understand the basics of programming (language agnostic)
-*	Rapid prototype your ideas for: 
-	*	Better communication 
-	*	Testing and research.
+##The Course Objectives
+
+*	Read code and write Java applications.
+
+*	Understand the basics of programming (language agnostic)
+
+*	Rapid prototype your ideas for: 
+
+	*	Better communication 
+
+	*	Testing and research.
 
 ---
 
 ##How To Succeed
 
-###You MUST __code__ to learn to __code__!<aside class="notes"> 
-Each class we will have from one to eight In-Class Labs (ICLs).  Each ICL is meant to either introduce a new concept or reinforce a previous concept. ICLs provide a practical, hands-on component for exploring and examining computer science topics.
+###You MUST __code__ to learn to __code__!
+
+<aside class="notes"> 
+
+Each class we will have from one to eight In-Class Labs (ICLs).  Each ICL is meant to either introduce a new concept or reinforce a previous concept. ICLs provide a practical, hands-on component for exploring and examining computer science topics.
 </aside>
 
 ---
@@ -119,11 +132,15 @@ I will take attendance in both classes. Attending on Tuesdays will not count tow
 
 ##What is a Program
 
-"A __program__ is a set of instructions that you write to tell a computer what to do" ~ Farrell (2008)
+"A __program__ is a set of instructions that you write to tell a computer what to do" ~ Farrell (2008)
+
 ---
 
-##What is Programming__Programming__ is the task of writing instructions in a language that the computer can understand.
-
+##What is Programming
+
+__Programming__ is the task of writing instructions in a language that the computer can understand.
+
+
 ---
 
 ##Becoming A Programmer
@@ -158,7 +175,9 @@ Pseudocode is the process of writing a program without using the syntax of a pro
 <aside class="notes"> 
 We will talk about algorithms later.
 
-Pseudocode is a mixture of natural language and high-level programming constructs. For example,If the door is closed and I want to exit the room, then open the doorThis semester we will learn what these keywords and structures are and how they are used to create a program…
+Pseudocode is a mixture of natural language and high-level programming constructs. For example,
+If the door is closed and I want to exit the room, then open the door
+This semester we will learn what these keywords and structures are and how they are used to create a program…
 
 </aside>
 
@@ -200,7 +219,8 @@ Let's Read Some Code
 <aside class="notes"> 
 image from Mit
 
-Scratch is a programming language that makes it easy to create interactive stories, animations, games, music, and art. Scratch is designed to help young people (ages 8 and up) develop 21st century learning skills. As they create Scratch projects, young people learn important mathematical and computational ideas, while also gaining a deeper understanding of the process of design. 
+Scratch is a programming language that makes it easy to create interactive stories, animations, games, music, and art. 
+Scratch is designed to help young people (ages 8 and up) develop 21st century learning skills. As they create Scratch projects, young people learn important mathematical and computational ideas, while also gaining a deeper understanding of the process of design. 
 </aside>
 
 ---
