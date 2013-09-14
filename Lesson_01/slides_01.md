@@ -30,7 +30,7 @@
 
 ---
 
-##Instructor
+###Instructor
 
 __Jessica T-Skeete__ jt2573@tc.columbia.edu
 
@@ -47,7 +47,7 @@ __Office Hours__ Tuesdays 5:00 - 7:20
 
 ---
 
-###You!	
+##You!	
 
 ---
 
