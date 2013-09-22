@@ -46,7 +46,9 @@ TipCalculator.java
 
 ##Making Decisions
 
-*	Simple Statements: One step follows another unconditionally.*	__Decision Structures__: Choosing between alternative courses of action based on some value within a program. 
+*	Simple Statements: One step follows another unconditionally.
+
+*	__Decision Structures__: Choosing between alternative courses of action based on some value within a program. 
 
 <aside class="notes"> 
 
@@ -153,7 +155,8 @@ Point back to the decision tree, and show students how if, else will function.
 ---
 
 ##Multiple Conditions
-An ```if...else if``` statements can be linked together for multiple conditions to be evaluated.
+
+An ```if...else if``` statements can be linked together for multiple conditions to be evaluated.
 
 ---
 
@@ -173,8 +176,11 @@ In this ICL we are going to explore the concept of conditionals using the if...e
 <td><b>Task</b></td>
 <td>
 	<ol>
-		<li>Create a file named 'SecretNumber.java'</li>		<li>Ask the user to guess a number between 1 and 10.</li>		<li>Compare the guessed number to a pre-defined numerical value and print 		out a simple statement to let the user know if they won or lost.</li>
-	</ol></td>
+		<li>Create a file named 'SecretNumber.java'</li>
+		<li>Ask the user to guess a number between 1 and 10.</li>
+		<li>Compare the guessed number to a pre-defined numerical value and print 		out a simple statement to let the user know if they won or lost.</li>
+	</ol>
+</td>
 </tr>
 </table>
 
@@ -199,7 +205,7 @@ Ask students to open file look at it and then run the file. Have them change the
 
 ##Decision Operators (&&)
 
-![&& chart](../images/and_operator.png)
+![&& chart](images/and_operator.png)
 <aside class="notes"> 
 
 
@@ -209,7 +215,7 @@ Ask students to open file look at it and then run the file. Have them change the
 
 ##Decision Operators (||)
 
-![|| chart](../images/or_operator.png)
+![|| chart](images/or_operator.png)
 <aside class="notes"> 
 
 
@@ -220,7 +226,8 @@ Ask students to open file look at it and then run the file. Have them change the
 ##Switching It Up
 
 
-With switch statements, we can handle multiple conditions with greater efficiency.
+With switch statements, we can handle multiple conditions with greater efficiency.
+
 <aside class="notes"> 
 
 With CanIRentACar.java we had a program example where there were multiple conditions to be evaluated and, in the example with multiple conditions with similar outputs, we repeated outputs with the same condition.
@@ -235,7 +242,12 @@ With CanIRentACar.java we had a program example where there were multiple condit
 
 
 ```java
-	switch (expression) {		case value1: statement(s);			break;		case value2: statement(s);			break;	}
+	switch (expression) {
+		case value1: statement(s);
+			break;
+		case value2: statement(s);
+			break;
+	}
 ```
 
 ---
@@ -299,7 +311,14 @@ Ask the class to Google it first. Then take the class through looking up methods
 ##String Comparison
 
 ```
-		String favoriteColor = "blue";		if (favoriteColor.equalsIgnoreCase("blue")) {			System.out.println("Blue really is a great color");		} else if (favoriteColor.equalsIgnoreCase("green")) {			System.out.println("Green! That’s a good one, too.");		} else {			System.out.println("Is that made by Crayola?");		}
+		String favoriteColor = "blue";
+		if (favoriteColor.equalsIgnoreCase("blue")) {
+			System.out.println("Blue really is a great color");
+		} else if (favoriteColor.equalsIgnoreCase("green")) {
+			System.out.println("Green! That’s a good one, too.");
+		} else {
+			System.out.println("Is that made by Crayola?");
+		}
 ```
 ---
 
@@ -336,7 +355,9 @@ Ask the class to Google it first. Then take the class through looking up methods
 
 ##Loops
 
-*	A loop is a structure that allows __repeated__ execution of a block of statements.*	Boolean statements determine if the loop will execute.
+*	A loop is a structure that allows __repeated__ execution of a block of statements.
+
+*	Boolean statements determine if the loop will execute.
 
 <aside class="notes"> 
 
@@ -348,12 +369,18 @@ Draw flow chart for grading papers. Make sure to point out where we saw loops in
 
 ##While Loops
 
-*	This loop statement will continue to execute as long as the condition evaluates to true```	while (Condition) {		Statement(s);	}
+*	This loop statement will continue to execute as long as the condition evaluates to true
+
+```
+	while (Condition) {
+		Statement(s);
+	}
 ```
 
 <aside class="notes"> 
 
-The while loop is a pre-test loop. The test happens before the loop is executed.
+The while loop is a pre-test loop. The test happens before the loop is executed.
+
 </aside>
 
 ---
@@ -361,7 +388,11 @@ The while loop is a pre-test loop. The test happens before the loop is executed.
 ##Do While Loops
 
 *	The do...while loop is used when there are statements that must be executed at least once before a condition is evaluated.
-```	do {		Statement(s);	} while (Condition);
+
+```
+	do {
+		Statement(s);
+	} while (Condition);
 ```
 
 <aside class="notes"> 
@@ -372,8 +403,12 @@ The do…while loop is a post-test. The test happens after the loop has executed
 
 ##For Loops
 
-*	The for loop statement is used when a definite number of loop iterations is required ```
-	for (Initialization; Condition; Update) {		Statement(s);	}
+*	The for loop statement is used when a definite number of loop iterations is required 
+
+```
+	for (Initialization; Condition; Update) {
+		Statement(s);
+	}
 ```
 
 <aside class="notes"> 
@@ -384,8 +419,13 @@ Use the for loop when you know how many times you would like a program to execut
 
 ---
 
-##For Loops```
-	for (int i = 0; int i < 10; i++) {		System.out.prinln("This is " + i + " time the loop ran");	}```
+##For Loops
+
+```
+	for (int i = 0; int i < 10; i++) {
+		System.out.prinln("This is " + i + " time the loop ran");
+	}
+```
 
 <aside class="notes"> 
 
@@ -398,9 +438,16 @@ How many times will the loop run.
 
 ##For Loops
 
-*	__Initialization__ - set at the outset, this is executed once when the program first reaches the for loop*	__Condition__ - tested each time the for loop completes (at the start of each iteration) 
-*	__Update__ - evaluated several times (at the end of each iteration)
-<aside class="notes"> 
+*	__Initialization__ - set at the outset, this is executed once when the program first reaches the for loop
+
+
+*	__Condition__ - tested each time the for loop completes (at the start of each iteration) 
+
+
+*	__Update__ - evaluated several times (at the end of each iteration)
+
+
+<aside class="notes"> 
 
 Write the syntax on the board.
 
@@ -429,7 +476,12 @@ ForLoop.java
 ## Lab Assignment
 
 *	Create a Quiz with 4 multiple-choice questions and 2 typed questions. This application should:
-	*	Welcome the user to the program.	*	Prompt the user with a question and 3 choices. 	*	Determine if the answer is correct	*	Keep a running count of the correct answers.	*	Display the score at the end of the quiz, and the words pass or failed (depends on if they receive over 50%). 
+
+	*	Welcome the user to the program.
+	*	Prompt the user with a question and 3 choices. 
+	*	Determine if the answer is correct
+	*	Keep a running count of the correct answers.
+	*	Display the score at the end of the quiz, and the words pass or failed (depends on if they receive over 50%). 
 
 ---
 
