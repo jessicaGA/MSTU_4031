@@ -105,7 +105,7 @@ strong{
   border-color: #13daec;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
-img{
+img .side{
   right: -10px;
   position: absolute;
 }
