@@ -11,8 +11,6 @@ Jessica T-Skeete Education Product Manager @ General Assembly
 jt2573@tc.columbia.edu
 
 
----
-
 ##Agenda
 
 *	Review Tip Calculator
@@ -23,20 +21,19 @@ jt2573@tc.columbia.edu
 *	Strings	
 *	Loops
 
----
+
 
 ##Recap
 
 [TipCalculator.java](solution/TipCalculator.java)
 
----
 
 
 #Conditional Logic
 
 __Making Decisions__
 
----
+
 
 ##Making Decisions
 
@@ -48,7 +45,7 @@ All decision structures have two possible outcomes: true or false.
 
 </aside>
 
----
+
 
 <section data-background="../images/columbia_alma.jpg">
 </section>
@@ -57,7 +54,7 @@ All decision structures have two possible outcomes: true or false.
 
 __If, else, switch__
 
----
+
 
 
 ##Decisions in Java
@@ -75,7 +72,7 @@ Results from comparison operators can be assigned to boolean variables (variable
 
 </aside>
 
----
+
 
 ##Comparison Operators
 
@@ -84,7 +81,7 @@ Results from comparison operators can be assigned to boolean variables (variable
 <aside class="notes"> 
 </aside>
 
----
+
 
 
 ##Conditional Statements
@@ -100,14 +97,14 @@ Results from comparison operators can be assigned to boolean variables (variable
 The code between the curly braces will only execute if <strong>condition</strong> evaluates to true.
 </aside>
 
----
+
 
 
 ##Conditional Statements
 
 [IFExample.java](solution/IFExample.java)
 
----
+
 
 
 ##Conditional Statements
@@ -119,13 +116,13 @@ The code between the curly braces will only execute if <strong>condition</strong
 
 </aside>
 
----
+
 
 ##Conditional Statements
 
 [CanIRentACar.java](solution/CanIRentACar.java)
 
----
+
 
 
 ##Conditional Statements
@@ -136,12 +133,12 @@ The code between the curly braces will only execute if <strong>condition</strong
 
 </aside>
 
----
+
 
 ##Multiple Conditions
 An ```if...else if``` statements can be linked together for multiple conditions to be evaluated.
 
----
+
 
 ##Exercise
 In this ICL we are going to explore the concept of conditionals using the if...else statement and user input.
@@ -164,7 +161,7 @@ In this ICL we are going to explore the concept of conditionals using the if...e
 </tr>
 </table>
 
----
+
 
 
 ##Decision Operators
@@ -179,7 +176,7 @@ In this ICL we are going to explore the concept of conditionals using the if...e
 
 </aside>
 
----
+
 
 ##Decision Operators (&&)
 
@@ -189,7 +186,7 @@ In this ICL we are going to explore the concept of conditionals using the if...e
 
 </aside>
 
----
+
 
 ##Decision Operators (||)
 
@@ -199,7 +196,7 @@ In this ICL we are going to explore the concept of conditionals using the if...e
 
 </aside>
 
----
+
 
 ##Switching It Up
 
@@ -212,7 +209,7 @@ With CanIRentACar.java we had a program example where there were multiple condit
 <blockquote>"The switch statement checks all cases and executes the statements in the matched case"</blockquote> - (Liang, 2008, p. 87).
 </aside>
 
----
+
 
 
 ##Switch Statements
@@ -222,19 +219,19 @@ With CanIRentACar.java we had a program example where there were multiple condit
 	switch (expression) {		case value1: statement(s);			break;		case value2: statement(s);			break;	}
 ```
 
----
+
 
 ##Switch Statements
 
 [SwitchComparison.java](starter_code/SwitchComparison.java)
 
----
+
 
 #Strings
 
 __Comparing Strings__
 
----
+
 
 ##String Comparison
 
@@ -249,7 +246,7 @@ To compare strings (or reference types) we can't use the same operators we used 
 
 </aside>
 
----
+
 
 ##String Comparison
 
@@ -261,14 +258,14 @@ equalsIgnoreCase
 
 </aside>
 
----
+
 
 ##String Comparison
 
 ```
 		String favoriteColor = "blue";		if (favoriteColor.equalsIgnoreCase("blue")) {			System.out.println("Blue really is a great color");		} else if (favoriteColor.equalsIgnoreCase("green")) {			System.out.println("Green! That’s a good one, too.");		} else {			System.out.println("Is that made by Crayola?");		}
 ```
----
+
 
 ##Exercise
 
@@ -287,14 +284,14 @@ equalsIgnoreCase
 </tr>
 </table>
 
----
+
 
 
 #LOOPS
 
 __Repetition Repetition Repetition__
 
----
+
 
 
 ##Loops
@@ -305,7 +302,7 @@ __Repetition Repetition Repetition__
 
 </aside>
 
----
+
 
 ##While Loops
 
@@ -317,7 +314,7 @@ __Repetition Repetition Repetition__
 The while loop is a pre-test loop. The test happens before the loop is executed.
 </aside>
 
----
+
 
 ##Do While Loops
 
@@ -329,7 +326,7 @@ The while loop is a pre-test loop. The test happens before the loop is executed.
 The do…while loop is a post-test. The test happens after the loop has executed.
 </aside>
 
----
+
 
 ##For Loops
 
@@ -343,7 +340,7 @@ Use the for loop when you know how many times you would like a program to execut
 
 </aside>
 
----
+
 
 ##For Loops```
 	for (int i = 0; int i < 10; i++) {		System.out.prinln("This is " + i + " time the loop ran");	}```
@@ -353,7 +350,7 @@ Use the for loop when you know how many times you would like a program to execut
 
 </aside>
 
----
+
 
 ##For Loops
 
@@ -364,7 +361,7 @@ Use the for loop when you know how many times you would like a program to execut
 
 </aside>
 
----
+
 
 ##Working With Loops
 
@@ -374,14 +371,14 @@ Use the for loop when you know how many times you would like a program to execut
 
 [ForLoop.java](starter_code/ForLoop.java)
 
----
+
 
 ##Short Hand Arithmetic
 
 
 ![Short Hand Table](../images/shortHand_table.png)
 
----
+
 
 
 ## [Lab Assignment](Lab2.md)
@@ -389,12 +386,12 @@ Use the for loop when you know how many times you would like a program to execut
 *	Create a Quiz with 4 multiple-choice questions and 2 typed questions. This application should:
 	*	Welcome the user to the program.	*	Prompt the user with a question and 3 choices. 	*	Determine if the answer is correct	*	Keep a running count of the correct answers.	*	Display the score at the end of the quiz, and the words pass or failed (depends on if they receive over 50%). 
 
----
+
 
 
 #Paired Programming
 
----
+
 
 ## Paired Programming
 
@@ -412,7 +409,7 @@ When done with the problem, make sure to email your pair the solution.
 </aside>
 
 
----
+
 
 ##Exercise
 
@@ -432,7 +429,7 @@ When done with the problem, make sure to email your pair the solution.
 </tr>
 </table>
 
----
+
 
 ##References
 
