@@ -4,11 +4,12 @@
 
 <div class="label">
 <p>Teachers College Columbia University</p>
-<p><strong>Basic Elements of Computer Programming cont</strong></p>
-<p>(<strong>Variables, Data Types, Operators, Sequence, and Input</strong>)</p>
+<p><strong>Making Decisions</strong></p>
+<p>(<strong>Conditionals & Loops</strong>)</p>
 <p>Jessica T-Skeete Education Product Manager @ General Assembly</p>
 </div>
 
+---
 
 
 ##Agenda
