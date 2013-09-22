@@ -1,4 +1,4 @@
-![MSTU-4031 Logo](../images/README_Hearder.png)
+![MSTU-4031 Logo](../images/README_Header.png)
 ##Lab 1 - Assignment (Fall 2013)Due: Monday September 23th, 2013 @ 5:30pm###Assignment:Create a Java student registration application. This application should prompt(ask) users for their:*	Last Name*	First Name*	Program*	Degree*	Credits taken first semester*	Credits taken second semesterAfter collecting the information, the program should output all variables to the console including total credits. For full credit your program should:*	Use string concatenations in at least 2 of your output messages.*	Use arithmetic operators*	Have clear variable names and comments.####Bonus:
 *	Prompt the user for a Boolean variable.*	Use an escape character to format your output. (Requires that you google escape characters).###Deliverables: All files must be zipped in an ‘Archive’ (.zip) file and uploaded to Moodle. Make sure your file is named:
 ```LastName_FirstName_UNI_Labx.zip```Include in Zip folder:•	Source Files (.java)•	Output [Console-based apps] or Screenshots [GUI apps] in a PDF (.pdf) file.__Note__ 
