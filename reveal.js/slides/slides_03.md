@@ -486,7 +486,7 @@ ForLoop.java
 ---
 
 
-<section data-background="images/2pears.png">
+<section data-background="images/2Pears.png">
 </section>
 
 #Paired Programming
