@@ -486,16 +486,8 @@ ForLoop.java
 
 #Paired Programming
 
-
-*	Create a Quiz with 4 multiple-choice questions and 2 typed questions. This application should:
-
-	*	Welcome the user to the program.
-	*	Prompt the user with a question and 3 choices. 
-	*	Determine if the answer is correct
-	*	Keep a running count of the correct answers.
-	*	Display the score at the end of the quiz, and the words pass or failed (depends on if they receive over 50%). 
-
 ---
+
 
 ## Paired Programming
 
