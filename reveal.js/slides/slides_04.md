@@ -115,7 +115,7 @@ FizzBuzz
 
 String university = "Columbia";
 
-![strings as array](../images/string_charArray.png)
+![strings as array](images/string_charArray.png)
 
 <aside class="notes"> 
 
@@ -140,7 +140,7 @@ Show StringAsArray.java
 
 ##Array Indexes
 
-![array indexes](../images/string_index.png)
+![array indexes](images/string_index.png)
 
 
 ```
@@ -246,7 +246,7 @@ Code along from scratch.
 
 ##MyFirstArray
 
-![Array Illustration](../images/array_breakdown.png)
+![Array Illustration](images/array_breakdown.png)
 
 
 <aside class="notes"> 
