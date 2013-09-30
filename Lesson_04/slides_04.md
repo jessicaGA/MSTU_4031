@@ -163,9 +163,25 @@ So, its not one piece of data, for example a String name, it is a collection of 
 
 ##Data Structures
 
-*	__Linear Data Structures__	*	Array	*	Dynamic Array (ArrayList)*	Lists
+*	__Linear Data Structures__
+	*	Array
+	*	Dynamic Array (ArrayList)
+*	Lists
 
----##Data Structures*	Trees	*	Binary trees	*	B-trees	*	Heaps		*	Tries	*	Multiway trees	*	Space-partitioning trees	*	Application-specific trees*	Hashes*	Graphs
+---
+
+
+##Data Structures
+*	Trees
+	*	Binary trees
+	*	B-trees
+	*	Heaps	
+	*	Tries
+	*	Multiway trees
+	*	Space-partitioning trees
+	*	Application-specific trees
+*	Hashes
+*	Graphs
 
 <aside class="notes"> 
 
@@ -198,7 +214,8 @@ MyFirstArray.java
 ##Arrays
 
 *	Fixed Size
-	1.	When you create an array you can initialize it with a set of values	2.	 When you create an array you can set the number of spaces 
+	1.	When you create an array you can initialize it with a set of values
+	2.	 When you create an array you can set the number of spaces 
 
 ---
 
@@ -217,8 +234,11 @@ MyFirstArray.java
 <td><b>Task</b></td>
 <td>
 	<ol>
-		<li>Create and array with 3 elements.</li>		<li>Store the names of the 3 people to the right of you.</li>		<li>Print the array to the terminal.</li>
-	</ol></td>
+		<li>Create and array with 3 elements.</li>
+		<li>Store the names of the 3 people to the right of you.</li>
+		<li>Print the array to the terminal.</li>
+	</ol>
+</td>
 </tr>
 </table>
 
@@ -228,7 +248,16 @@ MyFirstArray.java
 ##Quick Answer
 
 ```java
-	public class SimpleArray{		public static void main(String[] args){			String[] firstNames = {"Joe", "Jane", "Julie"};			System.out.println("The first name in my list is " + firstNames[0]);			System.out.println("The second name in my list is " + firstNames[1]);			System.out.println("The third name in my list is " + firstNames[2]);			System.out.println("The fourth name in my list is " + firstNames[3]);		}	}```
+	public class SimpleArray{
+		public static void main(String[] args){
+			String[] firstNames = {"Joe", "Jane", "Julie"};
+			System.out.println("The first name in my list is " + firstNames[0]);
+			System.out.println("The second name in my list is " + firstNames[1]);
+			System.out.println("The third name in my list is " + firstNames[2]);
+			System.out.println("The fourth name in my list is " + firstNames[3]);
+		}
+	}
+```
 
 <aside class="notes"> 
 
@@ -253,12 +282,17 @@ ArrayForLoop.java
 
 With the for loop we can utilize one System.out.println to successively execute a similar statement while assigning input to the array:
 
-```java	for (int i = 0; i < 5; i++) {		System.out.println("What is your first name?");		firstNames[i] = myScanner.nextLine();	}
+```java
+	for (int i = 0; i < 5; i++) {
+		System.out.println("What is your first name?");
+		firstNames[i] = myScanner.nextLine();
+	}
 ```
 
 <aside class="notes"> 
 
-What is happening here?How many times will the program ask for a name?
+What is happening here?
+How many times will the program ask for a name?
 
 </aside>
 
@@ -270,16 +304,19 @@ What is happening here?How many times will the program ask for a name?
 <blockquote>The Arrays class contains various static methods for sorting and searching arrays, comparing arrays, and filling array elements</blockquote> 
 
 
-(Liang, 2008, p. 202)
+(Liang, 2008, p. 202)
+
 <aside class="notes"> 
-We will cover three basic methods in the Arrays class. 
+
+We will cover three basic methods in the Arrays class. 
 </aside>
 
 ---
 
 ##Array Class
 
-The Arrays class is in the java.util package, so we need to import it in order to use it in our program.
+The Arrays class is in the java.util package, so we need to import it in order to use it in our program.
+
 
 <aside class="notes"> 
 We've seen this package before, remember java.util.Scanner? For simplicity sake lets bring in the whole package.
@@ -291,7 +328,10 @@ We've seen this package before, remember java.util.Scanner? For simplicity sake 
 ##Google It
 
 .sort
-```double[] numbers = {3.5, 3.9, 6.3, 5.0, 4.2, 1.8, 6.4};java.util.Arrays.sort(numbers);
+
+```
+double[] numbers = {3.5, 3.9, 6.3, 5.0, 4.2, 1.8, 6.4};
+java.util.Arrays.sort(numbers);
 ```
 
 <aside class="notes"> 
@@ -305,8 +345,13 @@ What happens in this method?
 ##Google It
 
 . equals
-```
-	int[] list1 = {6, 8, 3, 2, 10};	int[] list2 = {6, 8, 3, 2, 10};	int[] list3 = {6, 8, 2, 3, 10};	System.out.println(java.util.Arrays.equals(list1, list2));	System.out.println(java.util.Arrays.equals(list2, list3));
+
+```
+	int[] list1 = {6, 8, 3, 2, 10};
+	int[] list2 = {6, 8, 3, 2, 10};
+	int[] list3 = {6, 8, 2, 3, 10};
+	System.out.println(java.util.Arrays.equals(list1, list2));
+	System.out.println(java.util.Arrays.equals(list2, list3));
 ```
 
 <aside class="notes"> 
@@ -323,12 +368,18 @@ Equals: checks whether two arrays are equal
 ##Google It
 
 .fill
-```
-int[] list1 = {6, 8, 3};int[] list2 = {6, 8, 3, 4, 6, 8, 2, 0};java.util.Arrays.fill(list1, 5);java.util.Arrays.fill(list2, 1, 3, 8);```
+
+```
+int[] list1 = {6, 8, 3};
+int[] list2 = {6, 8, 3, 4, 6, 8, 2, 0};
+java.util.Arrays.fill(list1, 5);
+java.util.Arrays.fill(list2, 1, 3, 8);
+```
 
 <aside class="notes"> 
 
-Identify the method that fills values to the whole array?Identify the method that fills values to part of the array?
+Identify the method that fills values to the whole array?
+Identify the method that fills values to part of the array?
 
 Fill: used to fill in all or part of the array
 
@@ -351,10 +402,21 @@ ArrayListAnswer.java
 
 ##ArrayList
 
-*	add("what you are adding")*	size()*	remove("what you are removing")*	remove(index)
-*	get(object)
-*	indexOf("what you want to get")
-
+*	add("what you are adding")
+	
+*	add(index, "what you are adding")
+
+*	size()
+
+*	remove("what you are removing")
+
+*	remove(index)
+
+*	get(index)
+
+*	indexOf("what you want to get")
+
+
 <aside class="notes"> 
 
 see <a href="http://docs.oracle.com/javase/6/docs/api/java/util/ArrayList.html">Java API</a> for more info
@@ -371,12 +433,24 @@ Create a program that allows a school Education Technologist to keep track of th
 ---
 
 
-## Assignment*	Welcome the user to the program.*	Prompt the user to enter the names of the classrooms (at least 7). *	Prompt the user to enter the number of computers in that classroom.*	Output the name of the classroom and the total number of computers. *	Output the total number of computers in the building. Hint: You will have to use parallel arrays. 
+## Assignment
+
+*	Welcome the user to the program.
+*	Prompt the user to enter the names of the classrooms (at least 7). 
+*	Prompt the user to enter the number of computers in that classroom.
+*	Output the name of the classroom and the total number of computers. 
+*	Output the total number of computers in the building. 
+
+Hint: You will have to use parallel arrays. 
 
 ---
 
-## Assignment Bonus*	Add search functionality. Allow a user to search for a specific classroom and see the computer count. 
----
+## Assignment Bonus
+
+*	Add search functionality. Allow a user to search for a specific classroom and see the computer count. 
+
+
+---
 
 
 ##Lab / Exercise
