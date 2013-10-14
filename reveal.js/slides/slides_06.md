@@ -140,7 +140,7 @@ Later in this semester we will cover the following OOP elements:*	Data Abstrac
 
 ##Objects And Classes
 
-![](../images/objects_classes.png)
+![](/images/objects_classes.png)
 
 <aside class="notes"> 
 
