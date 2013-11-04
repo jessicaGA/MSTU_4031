@@ -1,0 +1,11 @@
+![MSTU-4031 Logo](../images/README_Header.png)
+##Assignment - 5 (Fall 2013)Due: Monday November 4th, 2013 @ 5:30pm
+###Assignment:
+Education Technology Solutions (ETS), LLC, an industry leader in educational software solutions, has hired you to create a program for the school board that holds a list of schools and their Education Technology Specialist.  The program you have been charged with making requires that the user sign in with their user name and password.  After the user has been given their sign in information, determine if the user can access ETS database, provide feedback if they were successful and if they are not.The program must collect the School Technologist’s name, school, school state, student population and their email address.If the student body is less than 150 they are classified as a small school. A school with over 200 students and in New York state is eligible for a grant. Any school over 500 students is eligible for discounted computers. Grants and discounts are not mutually exclusive.
+__For full credit your program should:__
+*	Instantiate the Technologists class. (aka have a Technologist class)*	Use mutators and accessors to set and get values.*	Main method must set its variables from scanner input and printout what type of discount / grant they are eligible for._Bonus:_Use an array list to store information for multiple technologists. ###Deliverables: 
+All files must be zipped in an ‘Archive’ (.zip) file and uploaded to Moodle. Make sure your file is named:
+```LastName_FirstName_UNI_Labx.zip```Include in Zip folder:•	Source Files (.java)•	Output [Console-based apps] or Screenshots [GUI apps] in a PDF (.pdf) file.__Note__ 
+Please add comments to your code: 
+```/*File Name, Your name, uni, email, date, Lab number, comments*/```###Late submissions 
+Those that are submitted up to one week late, submissions that do not compile, and submissions that do not meet the requirements of the lab assignments merit a grade of 1.
