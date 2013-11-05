@@ -1,34 +1,37 @@
-public class Shape
-{
+public class Shape{
 
 	//Constructor
 	Shape(){}
 		
-	String	type;
-	String	color;
-	double	length;
-	double	height;
-	double 	radius;
-	
+	private String	type;
+	private String	color;
+	private double	length;
+	private double	height;
+	private double 	radius;
 	
     //custom instance method
 	public void shapeDetails(){
 		System.out.println("I am a " + color + " " + type);
 	}
 
-
 	public double area(){
-		
 		double area;
-
-		if (type.equalsIgnoreCase("circle"))
-			area = 3.14 * (Math.pow(radius, 2));
-		else 
-			area = length * height;
-
+		area = length * height;
 		return area;
-		
 	}
-	
+
+	public void setDetails(String shapeType, String shapeColor){
+			type = shapeType;
+			color = shapeColor;
+	}
+
+		public void setSize(double shapeLength, double shapeHeight){
+			length = shapeLength;
+			height = shapeHeight;
+			
+	}
+
+
+
 	
 }

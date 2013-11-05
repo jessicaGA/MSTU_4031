@@ -4,7 +4,7 @@ public class HelloGui {
 
 	public static void main(String[] args){
 		
-		JOptionPane.showMessageDialog(null, "Hello Windowed App");
+		JOptionPane.showMessageDialog(null, "Hello Jessica");
 			/*
 			The first parameter is the Frame in which the dialog is displayed.
 			//Since this is null, a default Frame is used
