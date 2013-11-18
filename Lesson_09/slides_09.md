@@ -451,11 +451,12 @@ A listener has two major requirements:
 
 ##Events
 
-```ActionListener listener = new ActionListener() {
-		public void actionPerformed(ActionEvent e) {
-			//Do Something
-		}	
-	};
+```
+ActionListener listener = new ActionListener() {
+	public void actionPerformed(ActionEvent e) {
+		//Do Something
+	}	
+};
 ```
 
 
@@ -463,8 +464,7 @@ A listener has two major requirements:
 
 ##Events
 
-```button.addActionListener(listener);
-```
+```button.addActionListener(listener);```
 
 <aside class="notes"> 
 
