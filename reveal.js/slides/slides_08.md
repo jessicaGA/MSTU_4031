@@ -2,11 +2,10 @@
 </section>
 
 #MSTU 4031
-##Intro To Object Oriented Programming
+##Object Oriented Programming Basics
 
 
 Teachers College Columbia University
-Brainstorming and Intro To Object Oriented Programming
 Jessica T-Skeete Education Product Manager @ General Assembly
 </div>
 
@@ -86,7 +85,8 @@ Jessica T-Skeete Education Product Manager @ General Assembly
 ##Recap Quiz
 
 ####True Or False
-*	Protected variables are the most restrictive and cannot be accessed anywhere outside the enclosing class.
+
+*	Protected variables are the most restrictive and cannot be accessed anywhere outside the enclosing class.
 
 <aside class="notes">
 
@@ -258,8 +258,12 @@ This is an exercise in using Documentation. Java API.
 ---
 
 ##Graphical User Interface
-*	The Java Foundation Classes (JFC) consist of:
-	*	Abstract Window Toolkit (AWT)	*	Java 2D	*	Swing
+
+*	The Java Foundation Classes (JFC) consist of:
+
+	*	Abstract Window Toolkit (AWT)
+	*	Java 2D
+	*	Swing
 
 <aside class="notes"> 
 
@@ -269,14 +273,20 @@ This is an exercise in using Documentation. Java API.
 
 ##Abstract Window Toolkit
 
-*	Using AWT your GUI elements will look like it is native to your OS.*	AWT was superseded by the Swing toolkit in J2SE 1.2 (we’ll still use it)
+*	Using AWT your GUI elements will look like it is native to your OS.
+
+*	AWT was superseded by the Swing toolkit in J2SE 1.2 (we’ll still use it)
 
 ---
 
 ##Swing
-Swing was developed to provide a more sophisticated set of GUI components than the earlier Abstract Window Toolkit.
-*	Java apps running on Windows and using the Swing toolkit will look like a native Windows app
-*	Java apps using the Swing toolkit and running on Mac OS X will look like native Mac OS X apps
+
+Swing was developed to provide a more sophisticated set of GUI components than the earlier Abstract Window Toolkit.
+
+*	Java apps running on Windows and using the Swing toolkit will look like a native Windows app
+
+
+*	Java apps using the Swing toolkit and running on Mac OS X will look like native Mac OS X apps
 
 <aside class="notes"> 
 
@@ -288,8 +298,11 @@ Find someone with a Mac / windows see what it looks like.
 
 ##Java 2D
 
-*	API for drawing two-dimensional graphics *	Draw using a paint method and compositing the result onto the screen”
-*	Part of the current JSE 6 release, consists of six packages and is apart of Swing.
+*	API for drawing two-dimensional graphics 
+
+*	Draw using a paint method and compositing the result onto the screen”
+
+*	Part of the current JSE 6 release, consists of six packages and is apart of Swing.
 
 ![Rocket Image](images/Rocket.png)
 <aside class="notes"> 
@@ -300,8 +313,11 @@ Find someone with a Mac / windows see what it looks like.
 
 ##SWING vs AWT
 
-*	Swing components are referred to as lightweight components because they do not rely on platform native GUI resources*	AWT, or the Abstract Windows Toolkit, components are referred to as heavyweight components because they are heavily dependent upon native GUI resources
-<aside class="notes"> 
+*	Swing components are referred to as lightweight components because they do not rely on platform native GUI resources
+
+*	AWT, or the Abstract Windows Toolkit, components are referred to as heavyweight components because they are heavily dependent upon native GUI resources
+
+<aside class="notes"> 
 
 While still supported, AWT has mostly been deprecated for Swing components
 
@@ -325,8 +341,18 @@ Lets update the first Java App we ever create.
 <tr>
 <td><b>Task</b></td>
 <td>
-	Create student registration application. This application should ask students for their:	<ul>		<li>First and Last Name</li>		<li>Program</li>		<li>Degree</li>		<li>Credits taken first semester</li>		<li>Credits taken second semester</li>	</ul>
-After collecting the information, the program should output all variables to the console including total credits. Make sure to create a student class.
+	Create student registration application. This application should ask students for their:
+	<ul>
+		<li>First and Last Name</li>
+		<li>Program</li>
+		<li>Degree</li>
+		<li>Credits taken first semester</li>
+		<li>Credits taken second semester</li>
+	</ul>
+
+After collecting the information, the program should output all variables to the console including total credits. 
+
+Make sure to create a student class.
 </td>
 </tr>
 </table>
