@@ -464,7 +464,9 @@ ActionListener listener = new ActionListener() {
 
 ##Events
 
-```button.addActionListener(listener);```
+```
+button.addActionListener(listener);
+```
 
 <aside class="notes"> 
 
