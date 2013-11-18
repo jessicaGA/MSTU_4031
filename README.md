@@ -26,9 +26,9 @@
 |October 23nd, 2013	| __7__- Midterm Presentations|
 |October 28th, 2013	| __8__ - Java Concepts: OOP Basics, Objects, Classes, and Set/Get Methods|
 |November 4th, 2013	| __9__ - Java Concepts: OOP Inheritance, Intro To GUIs|
-|November 11th, 2013| __10__ -  OOP Concepts: GUI Basics (Polymorphism, Abstract Classes, and Interfaces) |
-|November 18th, 2013| __11__ - OOP Concepts: More On GUIs & Events  |
-|November 25th, 2013| __12__ - No Class |
+|November 11th, 2013| __10__ -    No Class|
+|November 18th, 2013| __11__ -  OOP Concepts: More On GUIs & Events |
+|November 25th, 2013| __12__ - OOP Concepts: GUI Basics (Polymorphism, Abstract Classes, and Interfaces) |
 |December 2rd, 2012| __13__ -  OOP Theory: (Polymorphism, Abstract Classes, and Interfaces)|
 |December 9th, 2012	| __14__ - Lab Session: Intro To Objective –C / or Android Development|
 |December 16th, 2012| __15__ - Final Presentations and Software Testing|
