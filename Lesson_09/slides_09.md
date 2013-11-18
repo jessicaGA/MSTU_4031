@@ -10,7 +10,6 @@ More GUIs & Events
 Jessica T-Skeete Education Product Manager @ General Assembly
 </div>
 
----
 
 ##Agenda
 
@@ -19,8 +18,6 @@ Jessica T-Skeete Education Product Manager @ General Assembly
 *	Layouts
 *	Events & Action Listeners
 	
----
-
 
 <section data-background="../arial_columbia.jpg">
 </section>
@@ -31,13 +28,13 @@ Jessica T-Skeete Education Product Manager @ General Assembly
 <p>Review</p>
 </div>
 
----
+
 
 
 
 ##HelloManyWindows.java
 
----
+
 
 
 <section data-background="../images/columbia_alma.jpg">
@@ -49,7 +46,6 @@ Jessica T-Skeete Education Product Manager @ General Assembly
 <p>Container, Component & Helper Classes</p>
 </div>
 
----
 
 ##container.java
 
@@ -59,14 +55,12 @@ Open Container.java
 *	Change the size of your frame.
 *	What does each line do?
 
----
+
 
 ##Java GUI API
 
 Loosely referred to as the GUI API, Java has three types of classes used for GUIs
 
-
----
 
 ##Java GUI API
 
@@ -92,7 +86,6 @@ These classes are used to contain other components
 Draw Container on white board.
 </aside>
 
----
 
 ##Java GUI API
 
@@ -103,7 +96,6 @@ __Component__ classes: Classified as the elements (components) within the contai
 Draw Component on white board.
 </aside>
 
----
 
 ##Java GUI API
 
@@ -117,7 +109,6 @@ These classes are components to be used within a container
 *	JRadioButton
 *	JMenu
 
----
 
 ##Java GUI API
 
@@ -127,8 +118,6 @@ __Helper__ classes: Elements such as graphics, color, font, and dimension used t
 <aside class="notes">
 
 </aside>
-
----
 
 
 ##Java GUI API
@@ -145,7 +134,6 @@ These classes are used to support GUI components
 
 </aside>
 
----
 
 ##Creating Forms
 
@@ -154,7 +142,6 @@ These classes are used to support GUI components
 What we will create.
 </aside>
 
----
 
 ##Creating Forms
 
@@ -172,9 +159,6 @@ The method to add buttons to the frame is in the JFrame Class.
 Component.java
 </aside>
 
----
-
-
 
 <section data-background="images/Columbia.jpg">
 </section>
@@ -184,7 +168,6 @@ Component.java
 <p>Why is there a giant button in the middle of my screen?</p>
 </div>
 
----
 
 ##Layouts
 
@@ -194,7 +177,6 @@ In Java nothing is given, you have to tell the program EVERYTHING!
 Draw layout on board. 
 </aside>
 
----
 
 ##Layouts
 
@@ -210,7 +192,7 @@ A layout manager is a level of abstraction within Java to map user interface ele
 Draw login with the components
 </aside>
 
----
+
 
 ##FlowLayout
 
@@ -224,9 +206,6 @@ Draw login with the components
 
 </aside>
 
----
-
-
 
 ##NameEmail.java
 
@@ -236,7 +215,6 @@ Draw login with the components
 
 </aside>
 
----
 
 ##FlowLayout
 
@@ -257,7 +235,6 @@ Draw login with the components
 8.	Use the following methods setSize -> set this to (200, 100), setLocationRelativeTo, setDefaultCloseOperation, setVisible
 
 
----
 
 ##Name Email
 
@@ -282,7 +259,6 @@ Draw login with the components
 </tr>
 </table>
 
----
 
 
 ##GridLayout
@@ -303,8 +279,6 @@ Draw login with the components
 
 </aside>
 
----
-
 
 ##NameEmailInGrid.java
 
@@ -312,7 +286,6 @@ Draw login with the components
 
 </aside>
 
----
 
 ##BorderLayout
 
@@ -327,7 +300,6 @@ The most complex of the three layout managers, BorderLayout divides the window i
 Components within the BorderLayout manager are laid out according to their preferred size and where they are placed in the container.
 </aside>
 
----
 
 ##ImageAndBoarders.java
 
@@ -335,7 +307,7 @@ Components within the BorderLayout manager are laid out according to their prefe
 
 </aside>
 
----
+
 
 ##ThePack
 
@@ -347,7 +319,7 @@ Components within the BorderLayout manager are laid out according to their prefe
 )
 </aside>
 
----
+
 
 <section data-background="images/Columbia_sign.jpg">
 </section>
@@ -359,8 +331,6 @@ Components within the BorderLayout manager are laid out according to their prefe
 
 </div>
 
----
-
 
 ##Events
 
@@ -370,7 +340,6 @@ Components within the BorderLayout manager are laid out according to their prefe
 
 </aside>
 
----
 
 ##Events
 
@@ -383,7 +352,6 @@ Events are triggered by:
 An event can be defined as a signal to the program that something has happened.
 </aside>
 
----
 
 ##Events
 
@@ -393,7 +361,6 @@ An event can be defined as a signal to the program that something has happened.
 
 *	The modern approach to handling events is based on the _delegation-based model_, which defines standard and consistent mechanisms to generate and process events.
 
----
 
 ##Events
 
@@ -416,7 +383,6 @@ An event can be defined as a signal to the program that something has happened.
 *	The GUI component on which an event is generated is called the source event.
 </aside>
 
----
 
 ##Events
 
@@ -426,12 +392,8 @@ An event can be defined as a signal to the program that something has happened.
 
 </aside>
 
----
-
 
 ##EventsAndButtons.java
-
----
 
 
 ##Events
@@ -446,8 +408,6 @@ A listener has two major requirements:
 
 </aside>
 
----
-
 
 ##Events
 
@@ -460,8 +420,6 @@ ActionListener listener = new ActionListener() {
 ```
 
 
----
-
 ##Events
 
 ```
@@ -472,7 +430,6 @@ button.addActionListener(listener);
 
 </aside>
 
----
 
 ##References
 
@@ -483,9 +440,7 @@ Cameron Fadjo MSTU 4031 Fall 2010 slides.
 *	http://www.falkhausen.de/en/diagram/html/javax.swing.JComponents.html
 *	http://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html#border
 *	http://www.javamex.com/tutorials/swing/layouts.shtml
-*	http://docs.oracle.com/javase/tutorial/uiswing/
-
-components/frame.html
+*	http://docs.oracle.com/javase/tutorial/uiswing/components/frame.html
 
 ---
 
