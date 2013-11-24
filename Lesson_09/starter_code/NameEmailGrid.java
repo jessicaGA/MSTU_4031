@@ -20,7 +20,7 @@ public class NameEmailGrid
 		GridLayout layout = new GridLayout();
 		layout.setColumns(2);
 		layout.setRows(2);
-		layout.setVgap(5);
+		layout.setVgap(1);
 		frame.setLayout(layout);
 		
 		//Add labels and text fields
