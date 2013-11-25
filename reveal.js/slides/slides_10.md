@@ -124,21 +124,21 @@ Encapsulation is done by creating objects.
 ---
 
 
-##POLYMORPHSIM
+##POLYMORPHISM
 
 Polymorphism, which literally means "many forms"," is the ability of an object variable to take different forms.
 
 ---
 
 
-##POLYMORPHSIM
+##POLYMORPHISM
 
 Lets see an Example:
 
 ---
 
 
-##POLYMORPHSIM
+##POLYMORPHISM
 
 We create a reference variable 'o' that refers to class 's'
 
@@ -147,7 +147,7 @@ We create a reference variable 'o' that refers to class 's'
 
 
 
-##POLYMORPHSIM
+##POLYMORPHISM
 
 Class 's' has a subclass 't'.  
 
@@ -157,14 +157,14 @@ That is, 't' extends 's'
 ---
 
 
-##POLYMORPHSIM
+##POLYMORPHISM
 
 Since 't' extends 's', we have an implied connection to the reference variable 'o'
 
 ---
 
 
-##POLYMORPHSIM
+##POLYMORPHISM
 
 Both 's' and 't' have a method 'move()'
 
@@ -173,14 +173,14 @@ Both 's' and 't' have a method 'move()'
 
 
 
-##POLYMORPHSIM
+##POLYMORPHISM
 
 Therefore, depending on the object to which the reference variable is referring, we would say that 'o' is polymorphic and can belong to either 's' or 't'
 
 ---
 
 
-##POLYMORPHSIM
+##POLYMORPHISM
 
 Allows us to overload and override.
 
