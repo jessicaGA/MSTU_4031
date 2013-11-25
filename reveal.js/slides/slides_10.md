@@ -248,6 +248,23 @@ Fix the errors in date and time
 
 ---
 
+##Medium Post
+
+Before you learn to code, think about what you want to code
+
+There’s nothing mystical about it
+
+It never works the first time
+
+Someone will always tell you you’re doing it wrong
+
+Someone will always tell you you’re not a real coder
+
+Worrying about “geek cred” will slowly kill you
+
+Sticking with it is more important than the method
+
+---
 
 
 <section data-background="images/Columbia_sign.jpg">
