@@ -16,7 +16,7 @@ Due: Monday December 2nd, 2013 @ 5:30pm
 
 All files must be zipped in an ‘Archive’ (.zip) file and uploaded to Moodle. Make sure your file is named:
 
-```LastName_FirstName_UNI_Labx.zip```
+* LastName_FirstName_UNI_Labx.zip
 
 __Note__ 
 
