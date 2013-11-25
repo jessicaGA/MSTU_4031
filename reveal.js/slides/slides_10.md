@@ -4,10 +4,10 @@
 #MSTU 4031
 ##Object Oriented Programming
 
-<div>
-Teachers College Columbia University
-STARTING FROM SCRATCH - Not Really.
-Jessica T-Skeete Education Product Manager @ General Assembly
+<div class="label">
+<p>Teachers College Columbia University</p>
+<p>STARTING FROM SCRATCH - Not Really.</p>
+<p>Jessica T-Skeete Education Product Manager @ General Assembly</p>
 </div>
 
 ---
@@ -17,12 +17,13 @@ Jessica T-Skeete Education Product Manager @ General Assembly
 *	Review
 *	Final Project
 *	Extends versus Implements
-*	Student Presentation Order
-
-<section data-background="../arial_columbia.jpg">
-</section>
+*	How To Start
 
 ---
+
+<section data-background="images/arial_columbia.jpg">
+</section>
+
 #Review
 
 <div class="label">
@@ -35,7 +36,7 @@ Jessica T-Skeete Education Product Manager @ General Assembly
 
 ---
 
-<section data-background="../images/columbia_alma.jpg">
+<section data-background="/images/columbia_alma.jpg">
 </section>
 
 #Final Project
@@ -52,11 +53,11 @@ __December 16th__
 
 Each student will prepare a presentation with five slides:
 
-1) Cover slide with project name, team members, and date
-2) Project overview: What does the program do?
-3) Screen shot of program in operation
-4) What you struggled with
-5) Final slide - Your choice
+1.	Cover slide with project name, team members, and date
+2.	Project overview: What does the program do?
+3.	Screen shot of program in operation
+4.	What you struggled with
+5.	Final slide - Your choice
 
 Your peers will review your code.
 
@@ -64,9 +65,9 @@ Your peers will review your code.
 
 ##Final Project
 
-__December 9th__
+__December 9th__: Code Reviews
 
-Code Reviews. You will review a classmates code and provide suggestion on how they can improve the code.
+You will review a classmate's code and provide suggestion on how they can improve.
 
 ---
 
@@ -77,7 +78,7 @@ Code Reviews. You will review a classmates code and provide suggestion on how th
 #The Pillars of OOP
 
 <div class="label">
-<p>Why it is awesome</p>
+<p>Why It Is Awesome</p>
 </div>
 
 ---
@@ -88,7 +89,11 @@ Code Reviews. You will review a classmates code and provide suggestion on how th
 
 ##Pillars of OOP
 
-__Inheritance__, __encapsulation__ and __polymorphism__ are referred to as the ‘three pillars of object-oriented programming’ - (Liang, 2008).
+__Inheritance__, __encapsulation__ and __polymorphism__ are referred to as the 'three pillars of object-oriented programming'
+
+<aside class="notes">
+from Liang 2008
+</aside>
 
 ---
 
@@ -121,7 +126,7 @@ Encapsulation is done by creating objects.
 
 ##POLYMORPHSIM
 
-Polymorphism, which literally means “many forms,” is the ability of an object variable to take different forms.
+Polymorphism, which literally means "many forms"," is the ability of an object variable to take different forms.
 
 ---
 
@@ -144,7 +149,9 @@ We create a reference variable 'o' that refers to class 's'
 
 ##POLYMORPHSIM
 
-Class 's' has a subclass 't'.  That is, 't' extends 's'
+Class 's' has a subclass 't'.  
+
+That is, 't' extends 's'
 
 
 ---
@@ -152,7 +159,7 @@ Class 's' has a subclass 't'.  That is, 't' extends 's'
 
 ##POLYMORPHSIM
 
-Since 't' extends 's, we have an implied connection to the reference variable 'o'
+Since 't' extends 's', we have an implied connection to the reference variable 'o'
 
 ---
 
@@ -188,7 +195,7 @@ Allows us to overload and override.
 
 ##ABSTRACTION
 
-Abstract Classes
+__Abstract Classes__
 
 *	Abstract classes are a form of a superclass that is so abstract it cannot have any specific instances.
 
@@ -203,17 +210,7 @@ Abstract Classes
 
 ##ABSTRACTION
 
-Abstract Methods
-
-*	Denoted using the abstract keyword modifier in the method header.
-
-*	Abstract methods are methods from a superclass that are, in one way of thinking, context-dependent upon the subclasses in which they are implemented.
-
----
-
-##ABSTRACTION
-
-Abstract Methods
+__Abstract Methods__
 
 *	Denoted using the abstract keyword modifier in the method header.
 
@@ -224,7 +221,7 @@ Abstract Methods
 
 ##ABSTRACTION
 
-ACTION LISTENERS
+####ACTION LISTENERS
 
 --
 
