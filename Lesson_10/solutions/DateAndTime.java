@@ -1,10 +1,7 @@
-/* Filename: DateAndTime
-Your job is to fix the code. There are lines of code that are missing and lines that are incorrect. 
-the Java Console and Java API are your friends. This is an exercise in reading the errors and the API. 
-
-Things to keep in mind: 
-The title of the frame should be Me Time.
-See the slides for a image of what the program should look like.
+/* Filename: DateAndTime.java 
+* By: Jessica Thornhill-Skeete
+* Email: jt2573@tc.columbia.edu 
+* Date: November 20, 2013
 */
 
 import javax.swing.*;
@@ -16,19 +13,23 @@ import java.util.*;
 public class DateAndTime extends JFrame implements ActionListener { 
     
     //The Components for the DateAndTime Frame
-    JLabel lblBanner 
-    JButton btnDate //title the buttons
-    JButton btnReset
-    Font theFont = new Font("Times New Roman",Font.BOLD, 12)
+    JLabel lblBanner = new JLabel("Date Should Appear Here"); 
+    JButton btnDate = new JButton("Today's Date");
+    JButton btnReset  = new JButton("Reset");
+
+    //Adding my own custom font.
+    Font theFont = new Font("TimesRoman", Font.BOLD, 14);
 
     
     //The calendar variables.
     GregorianCalendar calendar;
     int hour, minute, am, month, day, year;
+    String ampm;
 
 
+	//This is the main method. This is where the program starts. Even though it is not the first line of code it still executes first.
     public static void main(String[] args) {
-        DateAndTime myTimeFrame = new DateAndTime();
+        JFrame myTimeFrame = new DateAndTime();
         myTimeFrame.pack();
         myTimeFrame.setSize(500, 100);
         myTimeFrame.setLocation(20,20);
@@ -39,11 +40,11 @@ public class DateAndTime extends JFrame implements ActionListener {
 
 	//The DateAndTime class constructor.
     public DateAndTime() {
-        super("Me Time");
+        super("Date and Time");
         
         JPanel panel = new JPanel();
         
-        lblBanner.setFont(theFont); 
+        lblBanner.setFont(theFont); //set the font on our label.
         
         
         //Add my components to the panel (container)
@@ -59,8 +60,10 @@ public class DateAndTime extends JFrame implements ActionListener {
     }
     
     
+    //Mandatory method when you implement an ActionListener. After an event occurs on the screen the program jumps to this method.
     public void actionPerformed(ActionEvent e) {
-        Object source = e.getSource();
+    
+        Object source = e.getSource(); //Store the object(component) that triggered the event. In this case clicking a button.
         
         if (source == btnDate) {
         	calendar = new GregorianCalendar(); //This calls the GregorianCalendar constructor, which retrieves current date and time.
