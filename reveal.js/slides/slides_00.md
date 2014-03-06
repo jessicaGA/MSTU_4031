@@ -16,14 +16,13 @@
 
 ##Agenda
 
-*	An Intro
-*	What is Programming
-*	How To Learn How To Code
+*	My Career Path (One Women's Story)
+*	What is Programming?
+*	How To Learn How To Code / Program
 
 ---
 
-<section data-background="images/Columbia.jpg">
-</section>
+
 
 #My Career Path
 
@@ -32,7 +31,13 @@
 ---
 
 
-<section data-background="images/Columbia_sign.jpg">
+
+<section data-background="images/ven.png">
+</section>
+
+---
+
+<section data-background="images/map.png">
 </section>
 
 #What Is Programming?
@@ -84,17 +89,6 @@
 
 ---
 
-##Becoming A Programmer
-
-![lightbulb](images/lightbulb.png)
-
-It's about changing how you think. 
-
-<aside class="notes"> 
-It isn't about the programming language. It is about changing how you think.
-</aside>
-
----
 
 ##What is a programming language?
 
@@ -109,39 +103,57 @@ image from [www.opendocs.org](www.opendocs.org)
 
 ---
 
-##How To Succeed
 
-###You MUST __code__ to learn to __code__!<aside class="notes"> 
-Talk about the free resources to teach yourself to code.
+##Becoming A Computer Scientist
+
+*	Software
+	*	Computer Science
+	*	Software Engineering
+		
+*	Hardware
+	*	Electrical Engineering	
+	*	Computer Engineer
+
+
+---
+
+##Programming isn't just for Computer Scientist
+
+<aside class="notes">
+Expand your skill set.
+Journalist / Bloggers
+Entrepreneurs
+Designers
+Doctors 
+</aside>
+
+---
+
+
+##Learn To Code
+![lightbulb](images/lightbulb.png)
+
+It's about changing how you think. 
+
+<aside class="notes"> 
+It isn't about the programming language. It is about changing how you think.
 </aside>
 
 ---
 
 ##Reading Pseudo Code
 
-Let's Read Some Code
+Let's See Some Code
 
-[http://cdpn.io/wJxjI](http://cdpn.io/wJxjI)
+[Traffic Light](http://codepen.io/nevan/pen/shtLA)
 
 ---
 
+##How To Succeed
 
-##Robot! Grade My Paper
-
-<table>
-<tr>
-<td><b>Type<bb></td>
-<td>Groups of 3 - 4</td>
-</tr>
-<tr>
-<td><b>Time</b></td>
-<td>20 min</td>
-</tr>
-<tr>
-<td><b>Task</b></td>
-<td>Arrange the cards so that it creates a program for a computer to grade a set of assignments.</td>
-</tr>
-</table>
+###You MUST __code__ to learn to __code__!<aside class="notes"> 
+Talk about the free resources to teach yourself to code.
+</aside>
 
 ---
 
@@ -158,47 +170,22 @@ Scratch is a programming language that makes it easy to create interactive stori
 
 ---
 
-##Scratch Program
-
-<table>
-<tr>
-<td><b>Single<bb></td>
-<td>Groups of 3 - 4</td>
-</tr>
-<tr>
-<td><b>Time</b></td>
-<td>30 min</td>
-</tr>
-<tr>
-<td><b>Task</b></td>
-<td>Create a program in scratch using a minimum of 10 these blocks</td>
-</tr>
-</table>
-
-
-Save and submit the link as an assignment.
+##[Code Pen](http://www.codepen.io)
 
 ---
+
+##[Dash](dash.ga.co)
+
+---
+
 
 ##Recap
 
-*	Programming is about giving a set of instructions to the computer. 
-
-*	There are many programming languages but the basic principles are always the same.
-
-*	You must think through the entire application one piece at a time.
+*	You should try it.
 
 ---
 
-## Lab Assignment
-
-
-Go to the [Scratch](http://scratch.mit.edu/explore/?date=ever) website
-
-*	Explore projects
-*	Choose a project
-*	Review the blocks of code. 
-*	Change its behavior.
+## Questions?
 
 
 ---
